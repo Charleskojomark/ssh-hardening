@@ -24,7 +24,7 @@ validate_ssh() {
     sudo sshd -t
 }
 
-enable_ssh() {
+restart_ssh() {
     log "Restarting ssh"
     sudo systemctl restart sshd
 }
