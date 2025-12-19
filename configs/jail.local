@@ -1,0 +1,9 @@
+[DEFAULT]
+
+bantime = 3600
+maxretry = 5
+banaction = ufw
+ignoreip = 127.0.0.0/8
+
+[sshd]
+enabled = true
