@@ -22,6 +22,7 @@ ssh-hardening/
 ├── README.md
 ├── scripts/
 │   ├── common.sh
+│   ├── logging.sh
 │   ├── firewall.sh
 │   ├── fail2ban.sh
 │   ├── ssh.sh
